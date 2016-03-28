@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+import { Injectable } from 'angular2/core';
+
+@Injectable()
+export class ${1:ServiceName}Service {
+	$0
+	constructor() { }
+
+}
+]]></content>
+	<tabTrigger>a2service</tabTrigger>
+</snippet>

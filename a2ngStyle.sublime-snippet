@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[[ngStyle]="{${1:style}: ${2:expression}}"]]></content>
+	<tabTrigger>a2ngStyle</tabTrigger>
+</snippet>

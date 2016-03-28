@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[[routerLink]="['${1:routeName}',{${2:routeParameterName}:${3:routeParameterValue}$0}]"]]></content>
+	<tabTrigger>a2routerLinkWithParameter</tabTrigger>
+</snippet>

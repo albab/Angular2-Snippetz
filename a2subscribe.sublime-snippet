@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+		this.${1:serviceName}.${2:functionName}
+			.subscribe((${3:paramName}: ${4:paramType}) => {
+				$0
+		});
+]]></content>
+	<tabTrigger>a2subscribe</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+import { Http, Response } from 'angular2/http';
+]]></content>
+	<tabTrigger>a2httpImport</tabTrigger>
+</snippet>

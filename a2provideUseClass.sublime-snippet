@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+provide(${1:service}, {useClass: ${2:otherService}})
+]]></content>
+	<tabTrigger>a2provideUseClass</tabTrigger>
+</snippet>

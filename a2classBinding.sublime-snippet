@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[[class]="${1:expression}"]]></content>
+	<tabTrigger>a2classBinding</tabTrigger>
+</snippet>

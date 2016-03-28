@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+import { bootstrap } from 'angular2/platform/browser';
+import { bind, enableProdMode, provide } from 'angular2/core';
+import { FORM_PROVIDERS } from 'angular2/common';
+import { ROUTER_PROVIDERS, LocationStrategy, HashLocationStrategy } from 'angular2/router';
+import { HTTP_PROVIDERS } from 'angular2/http';
+import { ${componentName}Component } from './${1:path}/${2:fileName}.component'
+
+//enableProdMode(); //Uncomment for production
+
+bootstrap(${3:componentName}Component, [ 
+	FORM_PROVIDERS, 
+	ROUTER_PROVIDERS,
+	HTTP_PROVIDERS,
+	bind(LocationStrategy).toClass(HashLocationStrategy)
+]).then(
+	success => console.log('${3:componentName}Component bootstrapped!'),
+	error => console.log(error)
+);
+]]></content>
+	<tabTrigger>a2bootstrap</tabTrigger>
+</snippet>

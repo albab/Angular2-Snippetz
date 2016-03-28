@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+import { Component, OnInit } from 'angular2/core';
+
+@Component({
+	selector: '${1:selector}',
+	templateUrl: '${2:path}/${3:fileName}.component.html'
+})
+
+export class ${4:ComponentName}Component implements OnInit {
+
+	constructor($0) { }
+	ngOnInit() { }
+}
+
+]]></content>
+	<tabTrigger>a2component</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<form #${1:templateVariableName}="ngForm" (ngSubmit)="${2:functionName}">
+  	$0
+</form>]]></content>
+	<tabTrigger>a2ngForm</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+@Output() ${1:eventName}: EventEmitter<${2:eventDataType}> = new EventEmitter();
+]]></content>
+	<tabTrigger>a2outputEvent</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@RouteConfig([
+	{ path: '${1:routePath}', as: '${2:RouteName}', component: ${3:Component} }$0
+])
+]]></content>
+	<tabTrigger>a2routeConfig</tabTrigger>
+</snippet>

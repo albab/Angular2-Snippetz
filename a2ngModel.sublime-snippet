@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[[(ngModel)]="${1:binding}"]]></content>
+	<tabTrigger>a2ngModel</tabTrigger>
+</snippet>

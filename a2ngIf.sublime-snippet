@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[*ngIf="${1:expression}"]]></content>
+	<tabTrigger>a2ngIf</tabTrigger>
+</snippet>

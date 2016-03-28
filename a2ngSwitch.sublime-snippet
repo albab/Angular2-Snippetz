@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<div [ngSwitch]="${1:conditionExpression}">
+  <div *ngSwitchWhen="${2:expression}">${3:output}</div>
+  <div *ngSwitchDefault>${4:output2}</div>
+</div>]]></content>
+	<tabTrigger>a2ngSwitch</tabTrigger>
+</snippet>

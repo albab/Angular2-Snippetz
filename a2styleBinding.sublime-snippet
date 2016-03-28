@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[[style]="${1:expression}"]]></content>
+	<tabTrigger>a2styleBinding</tabTrigger>
+</snippet>

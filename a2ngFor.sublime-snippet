@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+	<![CDATA[*ngFor="#${1:item} of ${2:list}"]]>
+	</content>
+	<tabTrigger>a2ngFor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

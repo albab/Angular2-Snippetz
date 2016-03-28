@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<select (change)="${1:changeFunction}(\$event)">
+	<option *ngFor="#${2:item} of ${3:list}" [value]="${2:item}" [selected]="${4:selectFunction}(${2:item})">{{${2:item}}}</option>
+</select>]]></content>
+	<tabTrigger>a2select</tabTrigger>
+</snippet>

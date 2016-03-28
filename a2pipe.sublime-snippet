@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+import { Pipe, PipeTransform } from 'angular2/core';
+
+@Pipe({
+	name: '${1:name}'
+})
+
+export class ${2:PipeName}Pipe implements PipeTransform {
+	transform(value: ${3:valueType}, args: ${4:argsType}) {
+		$0
+	}
+}
+]]></content>
+	<tabTrigger>a2pipe</tabTrigger>
+</snippet>
