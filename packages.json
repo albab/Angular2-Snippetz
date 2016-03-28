@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.0.0",
+  "packages": [
+    {
+      "name": "Angular2-Snippetz",
+      "details": "https://github.com/albab/angular2-snippetz",
+      "labels": ["angular2", "snippets"],
+      "releases": [
+         {
+          "sublime_text": "<3000",
+          "tags": "st3-"
+         }
+      ]
+    }
+  ]
+}
