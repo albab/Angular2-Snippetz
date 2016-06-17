@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 //ensure imports are included
-//import { Http, Response } from 'angular2/http';
+//import { Http, Response } from '@angular/http';
 //import 'rxjs/add/operator/map';
 
 	return this.http.${1:function}(${2:url})

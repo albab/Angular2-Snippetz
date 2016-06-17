@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-import { Pipe, PipeTransform } from 'angular2/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
 	name: '${1:name}'
