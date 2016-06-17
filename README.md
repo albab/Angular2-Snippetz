@@ -16,6 +16,7 @@ a2bootstrap       - Bootstrap snippet
 a2component       - Component snippet
 a2httpImport      - Http module import snippet
 a2httpMap         - Http map() snippet
+a2import          - Import snippet
 a2inputProperty   - @Input property snippet
 a2outputEvent     - @Output event snippet
 a2pipe            - Pipe snippet
